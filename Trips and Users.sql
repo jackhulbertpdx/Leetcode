@@ -1,7 +1,9 @@
-Leetcode Problem number 262: Trips and Users
+/*Leetcode Problem number 262: Trips and Users
 
 
 Answer:
+*/
+
 
 SELECT 
 Trips.Request_at as 'DAY', 
@@ -14,7 +16,7 @@ group by Trips.Request_at
 
 
 
-#
+/*
 +-------------+----------+
 | Column Name | Type     |
 +-------------+----------+
@@ -92,3 +94,4 @@ Result table:
 | 2013-10-02 | 0.00              |
 | 2013-10-03 | 0.50              |
 +------------+-------------------+
+*/
